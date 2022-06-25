@@ -1,0 +1,23 @@
+body {
+	font-family: var(--ff);
+	font-weight: var(--fw-400);
+	background-color: var(--bg-body);
+	color: var(--clr-body);
+}
+
+h1,
+h2,
+h3 {
+	font-weight: var(--fw-700);
+	line-height: 1.25;
+	color: var(--clr-heading);
+
+	span {
+		color: var(--clr-heading-accent);
+	}
+}
+
+p {
+	font-size: var(--fz-small);
+	line-height: 1.6;
+}

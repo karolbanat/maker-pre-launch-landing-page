@@ -1,0 +1,48 @@
+:root {
+	// colors
+	--clr-primary-400: hsl(230, 60%, 8%);
+	--clr-primary-700: hsl(206, 84%, 22%);
+
+	--clr-accent-700: hsl(179, 80%, 58%);
+
+	--clr-neutral-400: hsl(343, 100%, 58%);
+	--clr-neutral-700: hsl(225, 14%, 53%);
+
+	--clr-white: hsl(0, 0%, 100%);
+
+	// font sizes
+	--fz-small: 1.5rem;
+	--fz-medium: 1.8rem;
+	--fz-large: 2.4rem;
+	--fz-x-large: 3.2rem;
+	--fz-xx-large: 4rem;
+
+	// font families
+	--ff: 'Manrope', sans-serif;
+
+	// font weights
+	--fw-400: 500;
+	--fw-700: 800;
+
+	// border radius
+	--borr-sm: 0.8rem;
+	--borr-lg: 4.5rem;
+
+	// stage
+	--bg-body: var(--clr-primary-400);
+	--clr-body: var(--clr-neutral-700);
+
+	--clr-heading: var(--clr-white);
+	--clr-heading-accent: var(--clr-accent-700);
+
+	--bg-benefit-icon: var(--clr-primary-700);
+
+	--bg-card: var(--clr-primary-700);
+	--clr-card-text: var(--clr-white);
+
+	--bg-input: var(--clr-primary-700);
+	--clr-error: var(--clr-neutral-400);
+
+	--bg-button: var(--clr-accent-700);
+	--clr-button: var(--clr-primary-700);
+}
