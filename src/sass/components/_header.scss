@@ -1,0 +1,57 @@
+.header {
+	--pd-block: 5rem;
+	--m-block: 6.4rem 14rem;
+
+	margin-block: var(--m-block);
+	text-align: center;
+
+	&__content {
+		--pd-inline: 2.4rem;
+		padding-inline: var(--pd-inline);
+	}
+
+	&__heading {
+		margin-bottom: 2rem;
+		max-width: 18ch;
+		font-size: var(--fz-x-large);
+
+		@media (min-width: $bp-large) {
+			--fz-x-large: 4.8rem;
+		}
+	}
+
+	&__image-mobile {
+		margin-bottom: 4.8rem;
+
+		@media (min-width: $bp-medium) {
+			display: none;
+		}
+	}
+
+	&__icon {
+		--margin-top: 3.6rem;
+		margin-top: var(--margin-top);
+		margin-inline: auto;
+
+		@media (min-width: $bp-large) {
+			--margin-top: 7rem;
+		}
+	}
+
+	@media (min-width: $bp-medium) {
+		--m-block: 7.8rem 11rem;
+		--bg-position: clamp(-15rem, 15vw - 30rem, -5rem);
+		padding-block: var(--pd-block);
+
+		background-image: url('../assets/illustration-hero-left.svg'), url('../assets/bg-hero-squiggle.svg'),
+			url('../assets/illustration-hero-right.svg');
+		background-position: left var(--bg-position) center, center, right var(--bg-position) center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	@media (min-width: $bp-large) {
+		--pd-block: 6rem;
+		--m-block: 11.5rem 20rem;
+	}
+}
