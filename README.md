@@ -10,8 +10,8 @@ This is a solution to the [Maker pre-launch landing page challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution Page](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages Site](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/maker-pre-launch-landing-page-nIAUUVymo2)
+- Live Site URL: [GitHub Pages Site](https://karolbanat.github.io/maker-pre-launch-landing-page/)
 
 ## Author
 
