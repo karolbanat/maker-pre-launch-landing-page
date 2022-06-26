@@ -3,7 +3,6 @@
 
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
 	gap: var(--gap);
 
 	margin-inline: auto;
@@ -11,6 +10,7 @@
 
 	@media (min-width: $bp-medium) {
 		flex-direction: row;
+		align-items: flex-start;
 	}
 
 	&__input-box {
