@@ -22,3 +22,7 @@ const handleSubmitButton = (e) => {
 };
 
 submitBtn.addEventListener('click', handleSubmitButton);
+subscriptionForm.addEventListener('focusin', () => {
+	subscriptionForm.classList.remove('error');
+	errorMsg.innerText = '';
+});
