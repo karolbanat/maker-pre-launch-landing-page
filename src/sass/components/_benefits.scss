@@ -1,0 +1,30 @@
+.benefits {
+	--margin-block: 14rem;
+	--pd-inline: 2.4rem;
+	--max-width: 57.5rem;
+	--gap: 6rem;
+
+	// layout
+	display: grid;
+	gap: var(--gap);
+
+	// spacing
+	margin-block: var(--margin-block);
+	margin-inline: auto;
+
+	max-width: min(100% - var(--pd-inline), var(--max-width));
+
+	@media (min-width: $bp-medium) {
+		--margin-block: 11rem;
+		--gap: 4rem;
+	}
+
+	@media (min-width: $bp-large) {
+		--margin-block: 20rem;
+		--max-width: 69.375em;
+		--pd-inline: clamp(4rem, 5vw, 8rem);
+		--gap: 3rem;
+
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
