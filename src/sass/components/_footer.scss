@@ -1,0 +1,22 @@
+.footer {
+	--margin-block: 14rem;
+	--pd-block: 1.6rem;
+
+	padding-inline: 2.4rem;
+	margin-block: var(--margin-block);
+	text-align: center;
+
+	background-image: url('../assets/bg-footer-squiggle.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	@media (min-width: $bp-medium) {
+		--margin-block: 12rem;
+		padding-block: var(--pd-block);
+	}
+
+	@media (min-width: $bp-large) {
+		--margin-block: 14rem;
+		--pd-block: 5rem 2.5rem;
+	}
+}

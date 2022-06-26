@@ -1,0 +1,22 @@
+.btn {
+	--background: var(--clr-accent-700);
+	--text: var(--clr-primary-700);
+
+	padding: 1em 2em;
+
+	font-size: var(--fz-small);
+
+	color: var(--text);
+	background-color: var(--background);
+	border: none;
+	border-radius: 100vmax;
+
+	cursor: pointer;
+	transition: background-color 0.35s ease-in, color 0.35s ease-in, outline 0.35s ease-in;
+
+	&:hover {
+		--background: var(--clr-primary-400);
+		--text: var(--clr-white);
+		outline: 2px solid var(--clr-accent-700);
+	}
+}
