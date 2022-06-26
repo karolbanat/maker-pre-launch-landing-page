@@ -1,0 +1,30 @@
+.pricing {
+	--margin-block: 14rem;
+
+	padding-inline: 2.4rem;
+	margin-block: var(--margin-block);
+
+	@media (min-width: $bp-medium) {
+		--margin-block: 12rem;
+	}
+
+	@media (min-width: $bp-large) {
+		--margin-block: 15rem;
+	}
+
+	&__plans {
+		--gap: 6.5rem;
+
+		// layout
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: var(--gap);
+
+		@media (min-width: $bp-large) {
+			--gap: 3rem;
+			flex-direction: row;
+		}
+	}
+}
