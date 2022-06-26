@@ -1,0 +1,8 @@
+.section-heading {
+	margin-bottom: 2.8rem;
+	font-size: var(--fz-large);
+
+	@media (min-width: $bp-large) {
+		--fz-large: 3.2rem;
+	}
+}

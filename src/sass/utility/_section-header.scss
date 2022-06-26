@@ -1,0 +1,11 @@
+.section-header {
+	--margin-bottom: 8.4rem;
+
+	padding-inline: 2.4rem;
+	margin-bottom: var(--margin-bottom);
+	text-align: center;
+
+	@media (min-width: $bp-large) {
+		--margin-bottom: 11rem;
+	}
+}
