@@ -2,10 +2,13 @@
 	--margin-block: 14rem;
 	--pd-block: 1.6rem;
 
+	// spacing
 	padding-inline: 2.4rem;
 	margin-block: var(--margin-block);
+
 	text-align: center;
 
+	// background
 	background-image: url('../assets/bg-footer-squiggle.svg');
 	background-size: contain;
 	background-repeat: no-repeat;

@@ -7,10 +7,12 @@
 
 	position: relative;
 
+	// spacing
 	padding-block: var(--pd-block);
 	padding-inline: var(--pd-inline);
 	max-width: 44.5rem;
 
+	// looks
 	color: var(--clr-text);
 	background-color: var(--clr-background);
 	border-radius: var(--borr-sm);

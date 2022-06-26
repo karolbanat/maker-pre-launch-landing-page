@@ -1,10 +1,12 @@
 .subscription {
 	--gap: 2.4rem;
 
+	// layout
 	display: flex;
 	flex-direction: column;
 	gap: var(--gap);
 
+	// spacing
 	margin-inline: auto;
 	max-width: min(100%, 47.5rem);
 
@@ -21,12 +23,13 @@
 		--clr-outline: var(--clr-accent-700);
 		--outline: 2px solid var(--clr-outline);
 
+		// spacing
 		padding: 1em 1.5em;
 		width: 100%;
 
+		// looks
 		color: var(--clr-input);
 		background-color: var(--bg-input);
-
 		border: none;
 		border-radius: 100vmax;
 

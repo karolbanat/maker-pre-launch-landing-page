@@ -43,6 +43,7 @@
 		--bg-position: clamp(-15rem, 15vw - 30rem, -5rem);
 		padding-block: var(--pd-block);
 
+		// background
 		background-image: url('../assets/illustration-hero-left.svg'), url('../assets/bg-hero-squiggle.svg'),
 			url('../assets/illustration-hero-right.svg');
 		background-position: left var(--bg-position) center, center, right var(--bg-position) center;
